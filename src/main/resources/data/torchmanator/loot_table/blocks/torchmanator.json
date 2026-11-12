@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "condition": {
+            "type": "minecraft:match_block",
+            "blocks": "torchmanator:torchmanator",
+            "state": {
+              "half": "lower"
+            }
+          },
+          "name": "torchmanator:torchmanator"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "torchmanator:blocks/torchmanator"
+}

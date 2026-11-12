@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north,half=lower,lit=false": { "model": "torchmanator:block/torchmanator_off", "y": 0 },
+    "facing=east,half=lower,lit=false":  { "model": "torchmanator:block/torchmanator_off", "y": 90 },
+    "facing=south,half=lower,lit=false": { "model": "torchmanator:block/torchmanator_off", "y": 180 },
+    "facing=west,half=lower,lit=false":  { "model": "torchmanator:block/torchmanator_off", "y": 270 },
+    "facing=north,half=lower,lit=true":  { "model": "torchmanator:block/torchmanator_on", "y": 0 },
+    "facing=east,half=lower,lit=true":   { "model": "torchmanator:block/torchmanator_on", "y": 90 },
+    "facing=south,half=lower,lit=true":  { "model": "torchmanator:block/torchmanator_on", "y": 180 },
+    "facing=west,half=lower,lit=true":   { "model": "torchmanator:block/torchmanator_on", "y": 270 },
+    "facing=north,half=upper,lit=false": { "model": "torchmanator:block/torchmanator_upper", "y": 0 },
+    "facing=east,half=upper,lit=false":  { "model": "torchmanator:block/torchmanator_upper", "y": 90 },
+    "facing=south,half=upper,lit=false": { "model": "torchmanator:block/torchmanator_upper", "y": 180 },
+    "facing=west,half=upper,lit=false":  { "model": "torchmanator:block/torchmanator_upper", "y": 270 },
+    "facing=north,half=upper,lit=true":  { "model": "torchmanator:block/torchmanator_upper", "y": 0 },
+    "facing=east,half=upper,lit=true":   { "model": "torchmanator:block/torchmanator_upper", "y": 90 },
+    "facing=south,half=upper,lit=true":  { "model": "torchmanator:block/torchmanator_upper", "y": 180 },
+    "facing=west,half=upper,lit=true":   { "model": "torchmanator:block/torchmanator_upper", "y": 270 }
+  }
+}

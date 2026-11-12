@@ -1,0 +1,109 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "torchmanator:torchmanator"
+      }
+    },
+    "has_cobbled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobbled_deepslate"
+          }
+        ]
+      }
+    },
+    "has_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate"
+          }
+        ]
+      }
+    },
+    "has_polished_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_deepslate"
+          }
+        ]
+      }
+    },
+    "has_deepslate_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_bricks"
+          }
+        ]
+      }
+    },
+    "has_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lantern"
+          }
+        ]
+      }
+    },
+    "has_soul_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_lantern"
+          }
+        ]
+      }
+    },
+    "has_barrel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:barrel"
+          }
+        ]
+      }
+    },
+    "has_torchmanator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "torchmanator:torchmanator"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cobbled_deepslate",
+      "has_deepslate",
+      "has_polished_deepslate",
+      "has_deepslate_bricks",
+      "has_lantern",
+      "has_soul_lantern",
+      "has_barrel",
+      "has_torchmanator"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "torchmanator:torchmanator"
+    ]
+  }
+}

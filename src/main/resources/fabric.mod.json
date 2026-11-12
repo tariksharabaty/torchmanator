@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "torchmanator",
+  "version": "${version}",
+  "name": "Torchmanator",
+  "description": "Banishing the dark, automatically.",
+  "authors": [
+    "Tarek Sharabaty",
+    "Oidioom"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/torchmanator/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.oidioomstudio.torchmanator.TorchmanatorMod"
+    ],
+    "client": [
+      "com.oidioomstudio.torchmanator.client.TorchmanatorClientMod"
+    ],
+    "modmenu": [
+      "com.oidioomstudio.torchmanator.client.ModMenuIntegration"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.instagram.lordotarik": "https://www.instagram.com/tariksby",
+        "modmenu.instagram.oidioom": "https://www.instagram.com/oidioom"
+      }
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "olib": ">=0.0.1"
+  }
+}

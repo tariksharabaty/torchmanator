@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": [
+      "minecraft:cobbled_deepslate",
+      "minecraft:deepslate",
+      "minecraft:polished_deepslate",
+      "minecraft:deepslate_bricks"
+    ],
+    "L": [
+      "minecraft:lantern",
+      "minecraft:soul_lantern"
+    ],
+    "B": "minecraft:barrel"
+  },
+  "pattern": [
+    "CLC",
+    "CCC",
+    "CBC"
+  ],
+  "result": {
+    "id": "torchmanator:torchmanator"
+  }
+}

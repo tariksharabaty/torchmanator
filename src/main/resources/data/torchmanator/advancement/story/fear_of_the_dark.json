@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "id": "torchmanator:torchmanator"
+    },
+    "title": {
+      "translate": "advancements.torchmanator.fear_of_dark.title"
+    },
+    "description": {
+      "translate": "advancements.torchmanator.fear_of_dark.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_torchmanator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "torchmanator:torchmanator"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_torchmanator"
+    ]
+  ]
+}
